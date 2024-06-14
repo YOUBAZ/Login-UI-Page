@@ -1,0 +1,80 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(33, 33, 35);
+}
+.si {
+    font-size: 35px;
+
+}
+#fo {
+    background-color:rgb(43 43 43);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    display: table;
+    position: absolute;
+    left:50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 350px;
+    height: 420px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    box-shadow: -3px -1px 9px 0px black;
+}
+.si {
+    color: rgb(5, 18, 249);
+    margin-top: 50px;
+}
+input[type="email"],[type="password"],[type="text"]{
+position: absolute;
+border: none;
+outline: none;
+width: 250px;
+height: 35px;
+border-bottom: 2px solid blue;
+background: none;
+padding: 10px;
+color: white;
+} 
+input[type="email"] {
+top: 140px;
+left: 50px
+}
+[type="text"] {
+    top: 160px;
+    left: 50px
+}
+[type="password"] {
+top: 180px;
+left: 50px;
+}
+#AD {
+top: 220px;
+left:50px;
+}
+.for {
+    top: 259px;
+    left: 61px;
+    position: absolute;
+}
+.so {
+    top: 259px;
+    left: 250px;
+    position: absolute;
+}
+.lo {
+    position: absolute;
+    top: 321px;
+    left: 58px;
+}
+input[type="submit"] {
+    height: 28px;
+    width: 70px; 
+    background-color: blue;
+    border: none;
+    color: black;
+}
